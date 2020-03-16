@@ -1,6 +1,6 @@
 {
     "$schema": "./node_modules/glossarify-md/conf.schema.json",
-    "baseDir": "./src",
+    "baseDir": "./docs",
     "outDir": "../target",
     "includeFiles": ["."],
     "excludeFiles": ["**/*.exclude.md"],
