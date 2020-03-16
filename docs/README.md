@@ -29,7 +29,7 @@ meta:
 
 ## Components
 
-Source at docs/.vuepress/components/
+Source at `docs/.vuepress/components/`
 
 * <Demo/>
 * <Button-Counter :start="0"/>
@@ -37,9 +37,9 @@ Source at docs/.vuepress/components/
 
 <CodeSwitcher :languages="{js:'JavaScript',ts:'TypeScript'}">
 <template v-slot:js>
-::: v-pre
+
 <<<@/docs/.vuepress/config.js
-:::
+
 </template>
 <template v-slot:ts>
 
@@ -52,11 +52,11 @@ export default function isString (str: string) : str is string {
 </template>
 </CodeSwitcher>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 
 

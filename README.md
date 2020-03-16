@@ -8,9 +8,8 @@ Do the work on the `docs:dev` once you build the glossified version you will nee
 
 > Due to this no automatic pushing of Glossary versions can be done.
 
-| Original        |      Glossified      |  
-| ------------- | -----------: | 
-| `[[toc]]`     | `\[[toc]]` |
-| `<<<`     |    `&lt;&lt;&lt;`   |   
-| YAML Frontmatter  | something weird | 
-
+| Original         | Glossified      |
+| ---------------- | --------------- |
+| `[[toc]]`        | `\[[toc]]`      |
+| `<<<`            | `&lt;&lt;&lt;`  |
+| YAML Frontmatter | something weird |
