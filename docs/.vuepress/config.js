@@ -3,7 +3,6 @@ const glossarify = require("glossarify-md");
 module.exports = {
   title: 'base-vuepress',
   description: 'Awesome description',
-  dest: 'target',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

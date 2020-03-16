@@ -37,13 +37,9 @@ Source at docs/.vuepress/components/
 
 <CodeSwitcher :languages="{js:'JavaScript',ts:'TypeScript'}">
 <template v-slot:js>
-
-```js{2}
-module.exports = function (str) {
-    return typeof str === 'string' && str.trim() === str
-}
-```
-
+::: v-pre
+<<<@/docs/.vuepress/config.js
+:::
 </template>
 <template v-slot:ts>
 
@@ -64,7 +60,9 @@ export default function isString (str: string) : str is string {
 
 
 
-### [Emoji Codes](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
+### Emoji Codes
+
+[Emoji Codes](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 
 :tada: :100:
 
@@ -95,5 +93,10 @@ console.log('Hello, VuePress!')
 :::
 
 ## Source Code of Page
+
+::: v-pre
+`{{ This will be displayed as-is }}`
+<<<@/docs/README.md
+:::
 
 <<<@/docs/README.md
