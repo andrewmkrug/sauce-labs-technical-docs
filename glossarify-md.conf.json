@@ -1,0 +1,14 @@
+{
+    "$schema": "./node_modules/glossarify-md/conf.schema.json",
+    "baseDir": "./src",
+    "outDir": "../target",
+    "includeFiles": ["."],
+    "excludeFiles": ["**/*.exclude.md"],
+    "experimentalFootnotes": true,
+    "keepRawFiles": ["**/*.raw.md"],
+    "glossaries": [
+        { "file": "./docs/glossary.md", "termHint": "↴"}
+    ],
+    "linking": "relative",
+    "ignoreCase": true
+}
