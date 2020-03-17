@@ -3,6 +3,7 @@ const glossarify = require("glossarify-md");
 module.exports = {
   title: 'base-vuepress',
   description: 'Awesome description',
+  theme: 'yuu',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -13,7 +14,11 @@ module.exports = {
       ['/', 'Home'],
       ['/about/', 'About'],
       ['/contact/', 'Contact']
-    ]
+    ],
+    yuu: {
+      colorThemes: ['green'],
+      disableThemeIgnore: true
+		},
   },
   markdown:{
     slugify: glossarify.getSlugger(),
