@@ -5,7 +5,7 @@ module.exports = {
   description: 'Awesome description',
   theme: 'yuu',
   themeConfig: {
-      logo: '/logo-saucelabs.png',
+    logo: '/logo-saucelabs.png',
     nav: [{
         text: 'Home',
         link: '/'
@@ -13,24 +13,45 @@ module.exports = {
       {
         text: 'Repos',
         ariaLabel: 'Language Menu',
-        items: [
-          { text: 'Java', link: 'https://github.com/saucelabs-training/demo-java' },
-          { text: 'Python', link: 'https://github.com/saucelabs-training/demo-python' },
-          { text: 'Javascript', link: 'https://github.com/saucelabs-training/demo-js'},
-          { text: 'C#', link: 'https://github.com/saucelabs-training/demo-csharp'}
+        items: [{
+            text: 'Java',
+            link: 'https://github.com/saucelabs-training/demo-java'
+          },
+          {
+            text: 'Python',
+            link: 'https://github.com/saucelabs-training/demo-python'
+          },
+          {
+            text: 'Javascript',
+            link: 'https://github.com/saucelabs-training/demo-js'
+          },
+          {
+            text: 'C#',
+            link: 'https://github.com/saucelabs-training/demo-csharp'
+          }
         ]
       },
-      {text: 'Glossary', link: '/glossary'},
-      {test: 'Index', link: '/glossary-index'}
+      {
+        text: 'Glossary',
+        link: '/glossary'
+      },
+      {
+        test: 'Index',
+        link: '/glossary-index'
+      }
     ],
-    sidebar: [
-      ['/', 'Home'],
-      { title: 'Sauce Specific',
-       children: [
-      ['/headless/', 'Headless'],
-    ['/sauce_bindings/', 'Sauce Bindings']]
-       }
-    ],
+    sidebar: [{
+      title: 'Language Docs',
+      children: [
+        ['/python/', 'Python']
+      ]
+    }, {
+      title: 'Sauce Specific',
+      children: [
+        ['/headless/', 'Headless'],
+        ['/sauce_bindings/', 'Sauce Bindings']
+      ]
+    }],
     yuu: {
       colorThemes: [],
       disableThemeIgnore: true
