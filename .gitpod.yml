@@ -4,14 +4,14 @@ tasks:
   - command: >
       while [ -z "$SAUCE_USERNAME" ] ; do
         printf "\n❗ The SAUCE_USERNAME environment variable is required. Please enter its value.\n" &&
-        read -s -p "SAUCE_USERNAME: " TOKEN ;
-      done ; gp env SAUCE_USERNAME=$TOKEN && printf "\nThanks\n"
+        read USERNAME ;
+      done ; gp env SAUCE_USERNAME=$USERNAME && printf "\nThanks\n"
       # Now you can use $SAUCE_USERNAME
   - command: >
       while [ -z "$SAUCE_ACCESS_KEY" ] ; do
         printf "\n❗ The SAUCE_ACCESS_KEY environment variable is required. Please enter its value.\n" &&
-        read -s -p "SAUCE_ACCESS_KEY: " TOKEN ;
-      done ; gp env SAUCE_ACCESS_KEY=$TOKEN && printf "\nThanks\n"
+        read KEY ;
+      done ; gp env SAUCE_ACCESS_KEY=$KEY && printf "\nThanks\n"
       # Now you can use $SAUCE_ACCESS_KEY
 image:
   file: .gitpod.Dockerfile
