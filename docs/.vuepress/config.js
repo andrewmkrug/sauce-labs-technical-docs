@@ -1,7 +1,7 @@
 const glossarify = require("glossarify-md");
 
 module.exports = {
-  title: 'base-vuepress',
+  title: 'Sauce Labs Technical Docs',
   description: 'Awesome description',
   theme: 'yuu',
   themeConfig: {

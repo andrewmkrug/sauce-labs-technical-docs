@@ -1,6 +1,12 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/andrewmkrug/base-vuepress) 
 
-# Base Vuepress Project
+# Running examples
+
+Once you `cd` into the different repo you are able to run any of the commands as you normally would to run the example. 
+
+This is helpful to quickly do demos or have readily available example code that is working from the start without having to setup your environment.
+
+# Docs
 
 This has a builtin glossary and code tabs that syncs all tabs to languages.
 

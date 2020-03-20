@@ -6,17 +6,21 @@ You can also run some of these examples directly from the repos.
 
 <CodeSwitcher :languages="{js:'JavaScript',py:'Python', java:'Java'}">
 <template v-slot:js>
-<<<@\demo-js\headless-examples\test\headless-chrome-test.js
+
+<<<@/demo-js/headless-examples/test/headless-chrome-test.js
 
 </template>
 
 <template v-slot:py>
-<<<@\demo-python\headless-examples\test_demo.py
+
+<<<@/demo-python/headless-examples/test_demo.py
 
 </template>
 
 <template v-slot:java>
+
 <<<@/demo-java/headless/src/test/java/SampleHeadlessSauceTest.java
+
 </template>
 
 </CodeSwitcher>
