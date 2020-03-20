@@ -5,7 +5,7 @@
     "glossarify": "glossarify-md --config ./glossarify-md.conf.json",
     "start": "vuepress dev docs",
     "glossarified": "npm run glossarify && vuepress dev target",
-    "build": "npm run glossarify && vuepress build target",
+    "glossary:build": "npm run glossarify && vuepress build target",
     "docs:pdf": "npm run build docs && vuepress export docs"
   },
   "dependencies": {
