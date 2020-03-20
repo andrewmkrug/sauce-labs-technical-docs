@@ -23,4 +23,10 @@ You can also run some of these examples directly from the repos.
 
 </template>
 
+<template v-slot:cs>
+
+<<<@/demo-csharp/SauceExamples/SeleniumNunit/SimpleExamples/SimpleHeadlessTest.cs>>>
+
+</template>
+
 </CodeSwitcher>

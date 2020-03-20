@@ -7,8 +7,14 @@
     "experimentalFootnotes": true,
     "keepRawFiles": ["**/*.raw.md"],
     "glossaries": [
-        { "file": "./docs/glossary.md", "termHint": "↴"}
+        { "file": "./glossary.md", "termHint": "↴"}
     ],
     "linking": "relative",
-    "ignoreCase": true
+    "ignoreCase": true,
+    "generateFiles": {
+    "indexFile": {
+       "file": "./glossary-index.md",
+       "title": "Index"
+    }
+}
 }

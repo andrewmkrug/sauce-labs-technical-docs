@@ -19,13 +19,16 @@ module.exports = {
           { text: 'Javascript', link: 'https://github.com/saucelabs-training/demo-js'},
           { text: 'C#', link: 'https://github.com/saucelabs-training/demo-csharp'}
         ]
-      }
+      },
+      {text: 'Glossary', link: '/glossary'},
+      {test: 'Index', link: '/glossary-index'}
     ],
     sidebar: [
       ['/', 'Home'],
       { title: 'Sauce Specific',
        children: [
-      ['/headless/', 'Headless']]
+      ['/headless/', 'Headless'],
+    ['/sauce_bindings/', 'Sauce Bindings']]
        }
     ],
     yuu: {
