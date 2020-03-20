@@ -5,28 +5,36 @@ module.exports = {
   description: 'Awesome description',
   theme: 'yuu',
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'About', link: '/about/' },
-      { text: 'Contact', link: '/contact/' }
+    nav: [{
+        text: 'Home',
+        link: '/'
+      },
+      {
+        text: 'About',
+        link: '/about/'
+      },
+      {
+        text: 'Contact',
+        link: '/contact/'
+      }
     ],
     sidebar: [
       ['/', 'Home'],
-      ['/about/', 'About'],
-      ['/contact/', 'Contact']
+      ['/headless/', 'Headless']
     ],
     yuu: {
-      colorThemes: ['green'],
+      colorThemes: ['red'],
       disableThemeIgnore: true
-		},
+    },
   },
-  markdown:{
+  markdown: {
     slugify: glossarify.getSlugger(),
     lineNumbers: true
   },
   plugins: ['@vuepress/active-header-links',
-  '@vuepress/back-to-top',
-  '@vuepress/medium-zoom',
-  'code-switcher']
+    '@vuepress/back-to-top',
+    '@vuepress/medium-zoom',
+    'code-switcher'
+  ]
 
 }

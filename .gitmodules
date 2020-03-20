@@ -1,0 +1,12 @@
+[submodule "demo-java"]
+	path = demo-java
+	url = https://github.com/saucelabs-training/demo-java.git
+[submodule "demo-python"]
+	path = demo-python
+	url = https://github.com/saucelabs-training/demo-python.git
+[submodule "demo-js"]
+	path = demo-js
+	url = https://github.com/saucelabs-training/demo-js.git
+[submodule "demo-csharp"]
+	path = demo-csharp
+	url = https://github.com/saucelabs-training/demo-csharp.git
