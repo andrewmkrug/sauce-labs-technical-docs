@@ -6,7 +6,17 @@ Once you `cd` into the different repo you are able to run any of the commands as
 
 This is helpful to quickly do demos or have readily available example code that is working from the start without having to setup your environment.
 
-# Docs
+## Getting latest version of submodules
+
+getting latest version of submodules
+
+`git submodule update --init --recursive`
+
+## Get latest heads of remotes
+
+`git submodule update --recursive --remote`
+
+## Docs
 
 This has a builtin glossary and code tabs that syncs all tabs to languages.
 
@@ -19,3 +29,5 @@ Do the work on the `docs:dev` once you build the glossified version you will nee
 | `[[toc]]`        | `\[[toc]]`      |
 | `<<<`            | `&lt;&lt;&lt;`  |
 | YAML Frontmatter | something weird |
+
+
