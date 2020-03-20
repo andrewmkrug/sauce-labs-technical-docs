@@ -23,7 +23,7 @@ module.exports = {
       ['/headless/', 'Headless']
     ],
     yuu: {
-      colorThemes: ['red'],
+      colorThemes: [],
       disableThemeIgnore: true
     },
   },
